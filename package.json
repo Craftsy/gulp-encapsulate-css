@@ -1,0 +1,40 @@
+{
+  "name": "gulp-encapsulate-css",
+  "version": "1.0.0",
+  "description": "gulp plugin to encapsulate a css file w/ all css selectors",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --reporter spec",
+    "build": "babel -d dist index.js"
+  },
+  "keywords": [
+    "encapsulate",
+    "css",
+    "encapsulation",
+    "namespace",
+    "gulp",
+    "gulp-plugin"
+  ],
+  "author": "Craftsy and Sympoz Inc.",
+  "contributors": [
+    "Don Abrams <don.abrams@craftsy.com>"
+  ],
+  "license": "MIT",
+  "repository": "craftsy/gulp-encapsulate-css",
+  "dependencies": {
+    "encapsulate-css": "^1.0.0",
+    "findup-sync": "^0.3.0",
+    "gulp-util": "^3.0.7",
+    "lodash.at": "^4.0.0",
+    "through2": "^2.0.0",
+    "vinyl": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel": "^6.3.13",
+    "babel-cli": "^6.3.17",
+    "babel-preset-es2015": "^6.3.13",
+    "chai": "^3.3.0",
+    "cssbeautify": "^0.3.1",
+    "mocha": "^2.3.3"
+  }
+}
