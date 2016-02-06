@@ -1,6 +1,6 @@
 {
   "name": "gulp-encapsulate-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "gulp plugin to encapsulate a css file w/ all css selectors",
   "main": "dist/index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "Don Abrams <don.abrams@craftsy.com>"
   ],
   "license": "MIT",
-  "repository": "craftsy/gulp-encapsulate-css",
+  "repository": "https://github.com/Craftsy/gulp-encapsulate-css",
   "dependencies": {
     "encapsulate-css": "^1.0.0",
     "findup-sync": "^0.3.0",
